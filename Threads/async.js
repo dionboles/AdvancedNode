@@ -1,3 +1,5 @@
+// the https module usings the os async calls
+
 const https = require("https");
 const start = Date.now();
 
@@ -10,6 +12,7 @@ let doRequest = () =>{
         })
     }).end();
 };
+
 
 doRequest();
 doRequest();
