@@ -50,7 +50,7 @@ while(shouldContinue()){
 
     // 4) Look at pendingTimers. Call any setImmediate
 
-    // 5) Handles any 'close' eventss
+    // 5) Handles any 'close' events like a node file stream
 
 }
 
@@ -61,5 +61,6 @@ while(shouldContinue()){
 
 Some of Node functions are not Single Threaded like:
 
-- the crypto lib 
+- Some of crypto lib dose multithreading 
+- All fs module using multithreading
 
