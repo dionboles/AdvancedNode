@@ -59,5 +59,7 @@ while(shouldContinue()){
 
 ```
 
-Some of Node functions are not Single Threaded 
+Some of Node functions are not Single Threaded like:
+
+- the crypto lib 
 
